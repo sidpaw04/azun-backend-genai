@@ -1,0 +1,5 @@
+dist/
+.env
+azun-*.json
+node_modules/
+.DS_Store
