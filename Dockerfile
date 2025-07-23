@@ -11,8 +11,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install application dependencies
-# The --omit=dev flag prevents dev dependencies from being installed in the final image
-RUN npm install --omit=dev
+RUN npm install
 
 # Copy the rest of your application source code to the container
 # This includes your src folder and tsconfig.json etc.
